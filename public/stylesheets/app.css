@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+#header {
+  background-image: linear-gradient(40deg, #ea7201, #f4b808);
+  height: 90vh;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper #sectionR {
+  display: block;
+  width: 500px;
+  height: 500px;
+}
+
+.wrapper #sectionR img {
+  margin-top: 15vh;
+  margin-left: 0;
+  width: 90vh;
+  height: auto;
+}
+
+.wrapper #title {
+  display: block;
+  height: 350px;
+  /* You must set a specified height */
+  width: 100%;
+}
+
+.wrapper #title img {
+  padding-top: 40vh;
+  padding-left: 10vh;
+  width: 65%;
+}
+
+.wrapper #title p {
+  color: white;
+  font-size: 2.3em;
+  padding-left: 10vh;
+}
+
+.main-nav {
+  position: fixed;
+  width: 100%;
+  background-color: #ea7201;
+  display: flex;
+}
+
+.main-nav #logo img {
+  width: 200px;
+}
+
+.main-nav li {
+  list-style: none;
+}
+
+.main-nav li:first-child {
+  margin-right: auto;
+}
+
+.main-nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  padding: 20px 50px 10px 50px;
+  font-weight: 900;
+}
+
+html {
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.6;
+  font-size: 14px;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+}
+
+.sec2 {
+  display: flex;
+  font-size: 1.1em;
+}
+
+.sec2 .whatdo {
+  font-size: 1.3em;
+  padding: 22vh 0px 0vh;
+  margin-bottom: 10vh;
+  display: block;
+  max-width: 60vh;
+}
+
+.sec2 img {
+  margin-left: auto;
+  margin-bottom: 0px;
+  display: block;
+  width: 30vw;
+  height: 30vw;
+}
+
+.sec2 h1 {
+  font-size: 3em;
+}
+
+.sec-divider {
+  background-image: linear-gradient(40deg, #ea7201, #f4b808);
+  height: 13vh;
+}
+
+.sec-divider h1 {
+  width: 100%;
+  font-size: 3em;
+  padding: 3vh;
+  text-align: center;
+  color: white;
+}
+
+.how-it-works {
+  height: 40vh;
+  background-color: burlywood;
+}
