@@ -64,8 +64,25 @@
   text-decoration: none;
   color: white;
   font-size: 1.5em;
-  padding: 20px 50px 10px 50px;
+  padding: 20px 60px 10px 60px;
   font-weight: 900;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper #title p {
+    padding: 0px 30px;
+  }
+  .wrapper #title img {
+    padding-left: 0px;
+  }
+  .wrapper #sectionR {
+    display: none;
+  }
+}
+
+.footer {
+  background-color: grey;
+  height: 80vh;
 }
 
 html {
@@ -107,8 +124,8 @@ body {
   margin-left: auto;
   margin-bottom: 0px;
   display: block;
-  width: 30vw;
-  height: 30vw;
+  width: 500px;
+  height: 500px;
 }
 
 .sec2 h1 {
@@ -131,4 +148,19 @@ body {
 .how-it-works {
   height: 40vh;
   background-color: burlywood;
+}
+
+@media only screen and (max-width: 600px) {
+  .sec2 {
+    font-size: 1.0em;
+  }
+  .sec2 .whatdo {
+    padding: 50px 20px;
+  }
+  .sec2 .whatdo h1 {
+    font-size: 2em;
+  }
+  .sec2 img {
+    display: none;
+  }
 }

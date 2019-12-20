@@ -1,5 +1,6 @@
 
 @import 'header';
+@import 'footer';
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 html{
@@ -46,8 +47,8 @@ body{
     // width: 32vw;
     // height: auto;
     display: block;
-    width: 30vw;
-    height: 30vw;
+    width: 500px;
+    height: 500px;
   }
   font-size: 1.1em;
   h1{
@@ -70,4 +71,19 @@ body{
 .how-it-works{
   height: 40vh;
   background-color: burlywood;
+}
+
+@media only screen and(max-width: 600px){
+  .sec2{
+    .whatdo{
+      padding: 50px 20px ;
+      h1{
+        font-size: 2em;
+      }
+    }
+    font-size: 1.0em;
+    img{
+      display: none;
+    }
+  }
 }
